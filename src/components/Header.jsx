@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 const Sh1 = styled.h1`
-  font-family: 'Knewave';
+  font-family: 'Righteous';
   text-align: center;
   font-size: 3em;
   color: #dedede;
-  padding-top: 30px;
+  padding-top: 20px;
 `;
 const SButtonWrapper = styled.nav`
-  background-color: grey;
+  background-color: #ee8a06;
   padding: 20px;
   display: flex;
   justify-content: space-around;
@@ -16,7 +16,7 @@ const SButtonWrapper = styled.nav`
 `;
 
 const SButton = styled.button`
-font-family: 'Knewave';
+font-family: 'Righteous';
 border-radius: 20px;
 padding: 5px 20px;
 font-size: 30px;
@@ -27,18 +27,17 @@ transition: transform 0.2s ease;
 &:hover {
   background-color: lightgrey;
   transform: translateY(-0.5rem) scale(1.02);
-  color: black;
+  color: #666768;;
 `;
 
 const Stitle = styled.title`
   display: flex;
   justify-content: center;
   padding: 20px;
-  font-family: 'Knewave';
+  font-family: 'Righteous';
   font-size: 70px;
   font-weight: bold;
-  background-color: rgb(44, 42, 42);
-  color: white;
+  color: #f2e8db;
 `;
 
 export default function Header() {
